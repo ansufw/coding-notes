@@ -30,3 +30,22 @@ services:
     ports:
       - "5050:80"
 ```
+
+## psql command list
+
+| command | description |
+|---------|------------:|
+|`psql -d database -U user -W` | connects to database under a specific user |
+|`\l` | list available databases |
+| `\dt` | list available tables |
+| `\d table_name` | describe a table |
+| `\dn` | list all schemes of the currently connected db |
+| `\df` | list available functions in the current db |
+| `\dv` | list available view |
+| `\du` | list all users and their assign role |
+| `SELECT version();` | retrieve the current version |
+| `\g` | execute the last command again |
+| `\?` | know all available psql commands |
+| `\h` | get help |
+| `\H` | switch the output to the HTML format | 
+| `\q` | exit psql shell | 
