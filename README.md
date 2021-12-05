@@ -43,9 +43,15 @@ services:
 | `\df` | list available functions in the current db |
 | `\dv` | list available view |
 | `\du` | list all users and their assign role |
-| `SELECT version();` | retrieve the current version |
 | `\g` | execute the last command again |
 | `\?` | know all available psql commands |
 | `\h` | get help |
 | `\H` | switch the output to the HTML format | 
 | `\q` | exit psql shell | 
+| `\c db_name` | switch database |
+| `SELECT version();` | retrieve the current version |
+| `CREATE DATABASE db_name;` | create database |
+| `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
+| `INSERT INTO colors VALUES (1, 'red'), (1, 'blue'), (1, 'green');` | insert data to table | 
+
+
