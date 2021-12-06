@@ -9,6 +9,13 @@
 - chromium (snap)
 - postman
 
+### git installation
+
+```sh
+sudo apt update
+sudo apt install git
+```
+
 ## Installing Go in Debian 10
 
 execute these following lines on the terminal
@@ -48,3 +55,5 @@ go version
 ```
 
 alternatively, put the lines to file, say `installer.sh`, set the execute permission using `chmod +x` and run the script using `./installer.sh` or `bash installer.sh` or `sh installer.sh`
+
+reference : https://www.digitalocean.com/community/tutorials/how-to-install-go-on-debian-10
