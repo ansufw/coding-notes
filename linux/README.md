@@ -8,7 +8,7 @@ BunsenLabs Linux is a distribution offering a light-weight and easily customizab
 
 go to `menu` > `Preferences` > `jgmenu` > `Edit Menu Content`
 
-in the file `prepend.csv` added following lines 
+in the last of line in file `prepend.csv`, add the following lines 
 
 ```csv
 ^tag(apps)
