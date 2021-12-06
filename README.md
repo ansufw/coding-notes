@@ -2,6 +2,9 @@
 
 ## Content
 
+### Operating System
+- Linux
+
 ### Backend
 - Golang
 - Postgres
