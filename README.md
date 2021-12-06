@@ -1,4 +1,4 @@
-# CODING SNIPET
+# CODING SNIPPET
 
 ## Content
 
