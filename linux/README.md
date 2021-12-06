@@ -1,5 +1,23 @@
 # Linux Coding Notes
 
+## Setting BunsenLabs (Debian 10)
+
+BunsenLabs Linux is a distribution offering a light-weight and easily customizable Openbox desktop.
+
+### Setting menu
+
+go to `menu` > `Preferences` > `jgmenu` > `Edit Menu Content`
+
+in the file `prepend.csv` added following lines 
+
+```csv
+^tag(apps)
+Back,^back()
+Chromium, /snap/bin/chromium
+Postman, postman
+Code, /snap/bin/code
+MySql-Workbench, /snap/bin/mysql-workbench-community
+```
 
 ## Installing fundamental software in Debian 10
 
