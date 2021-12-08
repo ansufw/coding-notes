@@ -19,13 +19,15 @@ func main() {
 		return c.SendString(":) Hello, World!")
 	})
 
-	app.Listen(":8080")
+	app.Listen(":3000")
 }
 ```
 
+
+
 create `Dockerfile` and paste this code
 
-```bash
+```sh
 FROM golang:1.17.4
 
 WORKDIR /app
@@ -38,10 +40,21 @@ RUN go mod download
 
 COPY . .
 
+EXPOSE 3000
+
 CMD ["go", "run", "main.go"]
+
 ```
 
-create `docker-compose.yml` and paste this code
+To create image from this Dockerfile, run `docker build -t simpleapp .`. Then we can create container from this image by running `docker run --name simpleapp_container -d -p 8080:3000 simpleapp`.    
+
+- `--name simpleapp_container` is the name of the cointainer
+- `-d` daemon mode so the app will run quetely
+- `-p 8080:3000` is port external:port internal
+- `simpleapp` the name of container 
+
+
+To create multiple container that connect each other, we can create `docker-compose.yml` and paste this code
 
 ```yaml
 version: "3.3"
