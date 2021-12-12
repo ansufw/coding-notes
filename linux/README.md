@@ -26,6 +26,7 @@ MySql-Workbench, /snap/bin/mysql-workbench-community
 - docker (snap)
 - chromium (snap)
 - postman
+- chrome
 
 ### git installation
 
@@ -34,7 +35,7 @@ sudo apt update
 sudo apt install git
 ```
 
-## Installing Go in Debian 10
+### Installing Go in Debian 10
 
 execute these following lines on the terminal
 
@@ -52,6 +53,7 @@ curl -O https://dl.google.com/go/go$version.linux-amd64.tar.gz
 
 # extract tarball
 tar xfv go$version.linux-amd64.tar.gz
+# note: x for extract, f for filename and v for verbose
 
 # Recursively change the owner and group of this directory into root and move to /usr/local
 sudo chown -R root:root ./go
@@ -75,3 +77,18 @@ go version
 alternatively, put the lines to file, say `installer.sh`, set the execute permission using `chmod +x` and run the script using `./installer.sh` or `bash installer.sh` or `sh installer.sh`
 
 reference : https://www.digitalocean.com/community/tutorials/how-to-install-go-on-debian-10
+
+### Install chrome
+
+download google chrome package
+
+```sh
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+```
+
+install google chrome
+
+```sh
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+```
+
