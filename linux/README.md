@@ -23,8 +23,8 @@ MySql-Workbench, /snap/bin/mysql-workbench-community
 
 - git
 - vscode (snap)
-- docker (snap)
 - chromium (snap)
+- docker 
 - postman
 - chrome
 
@@ -91,4 +91,9 @@ install google chrome
 ```sh
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
+
+### Install XDM
+
+download xdm from here [github](https://github.com/subhra74/xdm/releases) then extract with command `tar xvf <tar file name>`. Run with `sudo ./install.sh`. After installation done then start XDM from start menu.
+
 
