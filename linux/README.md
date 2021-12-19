@@ -97,3 +97,4 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 download xdm from here [github](https://github.com/subhra74/xdm/releases) then extract with command `tar xvf <tar file name>`. Run with `sudo ./install.sh`. After installation done then start XDM from start menu.
 
 
+tess
