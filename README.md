@@ -6,9 +6,15 @@
 - Linux
 
 ### Backend
-- Golang
-- Postgres
-- Github/Gitlab
+- Language
+  - NodeJS
+  - Golang
+  - Python
+- RDMS
+  - Postgres
+  - MySQL
+- Git
+  - Github/Gitlab
 
 ### Frontend
 - Tailwind
