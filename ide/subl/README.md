@@ -6,4 +6,23 @@
 4. open side view: `ctrl + k`, `ctrl + b`
 5. move line code up or down: `ctrl + shift` + `up/down`
 6. duplicate line: `ctrl + shift + d`
-7. finding baris nomer: `ctrl + g`
+7. finding line number: `ctrl + g`
+
+
+# Package Install
+1. Golang Build
+2. Terminus
+
+
+##  Golang Setting
+
+Go to `Preferences` > `Package Setting` > `Golang Config` > `Setting-User`    
+
+Add this code to file _golang.sublime-settings_ and save
+
+```bash
+{
+	"GOPATH":"/home/aysf/go/bin",
+	"PATH":"/home/aysf/go"
+}
+```
