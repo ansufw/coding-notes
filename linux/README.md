@@ -1,5 +1,36 @@
 # Linux Coding Notes
 
+## Basic Command
+
+### copying file
+
+`cp filename destination`
+
+### moving (or rename) file
+
+`mv filename destination/new_filename`
+
+### login ssh
+
+`ssh username@public_ip`
+
+### add ssh-key to ubuntu server
+
+crete key-gen in the terminal using command`ssh-keygen -t rsa`
+
+the default keygen will be stored in `/Users/username/.ssh/id_rsa`
+
+to open it use command `cat id_rsa.pub`
+
+add ssh key to server by running `ssh-copy-id username@public_ip`
+
+config ssh
+
+1. go to /etc/ssh
+2. backup config file `cp sshd_config sshd_config.dist`
+3. open `sshd_config` using `vi` or other text editor
+4. set `PasswordAuthentication` and `PermitRootLogin` to `no` and `MaxAuthTries` to `3`
+
 ## Setting BunsenLabs (Debian 10)
 
 BunsenLabs Linux is a distribution offering a light-weight and easily customizable Openbox desktop.
@@ -8,7 +39,7 @@ BunsenLabs Linux is a distribution offering a light-weight and easily customizab
 
 go to `menu` > `Preferences` > `jgmenu` > `Edit Menu Content`
 
-in the last of line in file `prepend.csv`, add the following lines 
+in the last of line in file `prepend.csv`, add the following lines
 
 ```csv
 ^tag(apps)
@@ -24,7 +55,7 @@ MySql-Workbench, /snap/bin/mysql-workbench-community
 - git
 - vscode (snap)
 - chromium (snap)
-- docker 
+- docker
 - postman
 - chrome
 
@@ -95,6 +126,3 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 ### Install XDM
 
 download xdm from here [github](https://github.com/subhra74/xdm/releases) then extract with command `tar xvf <tar file name>`. Run with `sudo ./install.sh`. After installation done then start XDM from start menu.
-
-
-tess
