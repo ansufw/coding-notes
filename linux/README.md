@@ -1,6 +1,6 @@
 # Linux Coding Notes
 
-## Basic Command
+## Basic Command for Server Linux
 
 ### copying file
 
@@ -14,22 +14,48 @@
 
 `ssh username@public_ip`
 
+### setting firewall
+
+- open ufw connection `ufw allow OpenSSH`
+- enable `ufw enable`
+- check status `ufw status`
+
 ### add ssh-key to ubuntu server
 
-crete key-gen in the terminal using command`ssh-keygen -t rsa`
+- crete key-gen in the terminal using command`ssh-keygen -t rsa`
+- the default keygen will be stored in `/Users/username/.ssh/id_rsa`
+- to open it use command `cat id_rsa.pub`
+- add ssh key to server by running `ssh-copy-id username@public_ip`
+- config ssh
+  1. go to /etc/ssh
+  2. backup config file `cp sshd_config sshd_config.dist`
+  3. open `sshd_config` using `vi` or other text editor
+  4. set `PasswordAuthentication` and `PermitRootLogin` to `no` and `MaxAuthTries` to `3`
 
-the default keygen will be stored in `/Users/username/.ssh/id_rsa`
+### install fail2ban
 
-to open it use command `cat id_rsa.pub`
+- before install any software run `sudo apt update`
+- then `sudo install fail2ban`
+- start it by `sudo systemctl start fail2ban`
+- set system start automatically when system restart `sudo systemctl enable fail2ban`
+- go to `cd /etc/fail2ban/` and create `sudo vi jail.local` put these settings
 
-add ssh key to server by running `ssh-copy-id username@public_ip`
+```
+[sshd]
+enable = true
+port = 22
+filter = sshd
+logpath = /var/log/auth.log
+maxretry = 3
+```
 
-config ssh
+- restrat to apply configuration `sudo systemctl restart fail2ban`
+- you can take a look `jail.conf` but your setting should go to `jail.local`
 
-1. go to /etc/ssh
-2. backup config file `cp sshd_config sshd_config.dist`
-3. open `sshd_config` using `vi` or other text editor
-4. set `PasswordAuthentication` and `PermitRootLogin` to `no` and `MaxAuthTries` to `3`
+### File transfer
+
+- using copying commmand `scp path/to/filename username@publicip:path/to/destination`
+- using secure ftp `sftp username@publicip`
 
 ## Setting BunsenLabs (Debian 10)
 
