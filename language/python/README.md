@@ -22,7 +22,7 @@ source: https://computingforgeeks.com/how-to-install-python-on-debian-linux/
 
 ## create new env
 1. create project directory `mkdir pythonapp && cd pythonapp`
-2. create virtual environment `python3.9 -m venv pythonapp_env`, where `pythonapp-env` is name of environment for the project
+2. create virtual environment `python3.9 -m venv pythonapp_env`, where `pythonapp_env` is name of environment for the project
 3. run `source pythonapp-env/bin/activate` to activate the environment
 4. run `deactivate` to deactivate
 
