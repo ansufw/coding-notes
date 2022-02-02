@@ -1,5 +1,10 @@
 # CODE SNIPPETS
 
+## check installed python
+- check location `ls -ls /usr/bin/python*` or `whereis python` 
+- to know path installed python `which python` or `which python3`
+- 
+
 ## create new env
 
 1. bikin folder project, misal 'pythonapp' kemudian `cd pythonapp`
