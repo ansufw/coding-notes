@@ -23,3 +23,39 @@ func main() {
 	}
 }
 ```
+
+golang concurency: goroutine in press keyboard
+
+```
+package main
+
+import (
+	"fmt"
+
+	"github.com/eiannone/keyboard"
+)
+
+var char rune
+
+func main() {
+	fmt.Println("Press any key, or q to quit")
+
+	_ = keyboard.Open()
+	defer func() {
+		keyboard.Close()
+	}()
+
+	for {
+		char, _, _ = keyboard.GetSingleKey()
+		if char == 'q' || char == 'Q' {
+			break
+		}
+		listenForKeyPress()
+	}
+
+}
+
+func listenForKeyPress() {
+	fmt.Println("you pressed", string(char))
+}
+```
