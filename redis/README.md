@@ -4,6 +4,7 @@
 ```sh
 docker run --name my-redis -p 6379:6379 -d redis
 ```
+source : https://medium.com/idomongodb/installing-redis-server-using-docker-container-453c3cfffbdf
 
 this command will do the following:
 
