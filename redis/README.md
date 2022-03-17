@@ -1,6 +1,17 @@
 # install redis via docker
 
 
+```sh
+docker run --name my-redis -p 6379:6379 -d redis
+```
+
+this command will do the following:
+
+1. pull the latest image from the docker hub
+2. Create and run the container and name it: my-redis
+3. Route port 6379 on my laptop to port 6379 inside the container. 6379 is Redis default port and can be changed
+
+
 # running redis
 
 ## enter docker terminal interactive
