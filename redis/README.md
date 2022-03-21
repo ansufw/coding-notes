@@ -42,8 +42,8 @@ an introduction redis data type -->  https://redis.io/topics/data-types-intro
 redis data type --> https://redis.io/topics/data-types
 
 1. strings
-2. lists -> simply lists of strings, sorted by insertion order
-3. sets -> an unordered collection of string
+2. lists -> simply lists of strings, SORTED by insertion order
+3. sets -> an UNORDERED and UNIQUE collection of string
 4. hashes -> are map between string fields and string value
 5. sorted sets -> ordered sets
 
@@ -56,7 +56,7 @@ https://redis.io/commands/#string
 - multiple set data `MSET fname "Yameena" lname "Azzahra"`
 - multiple get data `MGET fname lname`
 
-## 2 Lists
+## 2 Lists: a simple ordered string collection
 
 https://redis.io/commands/#list
 
@@ -72,7 +72,14 @@ https://redis.io/commands/#list
 - show value in last index `LINDEX fruits -1`
 - show value in before last second index `LINDEX fruits -2`
 
-## 3 Sets
+## 3 Sets: an unique and unordered collection
+
+https://redis.io/commands#set
+
+- set add (sadd) is to add or create value `SADD animals "tiger" "dolphin" "eagle"`
+- add value again `SADD animals "lion" "tiger" "rabit"`
+- see members is to view all value `SMEMBERS animals`
+- is member exist `SISMEMBER animals "tiger"`
 
 ## 4 Hashes
 
