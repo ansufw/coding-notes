@@ -29,24 +29,10 @@ by running `redis-cli -h localhost`
 
 Now you can try some codes to play with redis !
 
-### Selecting database
-
-selecting database 1
-
-`select 1`
-
-selecting database 2
-
-`select 2`
-
-### Show redis information
-
-`info keyspace`
-
-### Show all keys in the database
-
-`keys *`
-
+- selecting database 1 `select 1`
+- selecting database 2 `select 2`
+- show redis information `info keyspace`
+- show all keys in the database `keys *`
 
 
 # data type in redis
@@ -58,5 +44,30 @@ selecting database 2
 5. sorted sets -> ordered sets
 
 ## 1 String
+
+https://redis.io/commands/#string
+
+- set data `SET name "Ananto Yusuf"`
+- delete data `DEL name`
+- multiple set data `MSET fname "Yameena" lname "Azzahra"`
+- multiple get data `MGET fname lname`
+
+## 2 lists
+
+https://redis.io/commands/#list
+
+- right push `RPUSH fruits "banana"`
+- right push `RPUSH fruits "berry"`
+- left push `LPUSH fruits "apple"`
+- show all list `LRANGE fruits 0 -1`
+- show value in first index `LINDEX fruits 0`
+- show value in second index `LINDEX fruits 1`
+- show value in last index `LINDEX fruits -1`
+- show value in before last second index `LINDEX fruits -2`
+- create lists
+- delete list
+
+
+
 
 
