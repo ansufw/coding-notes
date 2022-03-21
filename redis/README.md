@@ -29,3 +29,34 @@ by running `redis-cli -h localhost`
 
 Now you can try some codes to play with redis !
 
+### Selecting database
+
+selecting database 1
+
+`select 1`
+
+selecting database 2
+
+`select 2`
+
+### Show redis information
+
+`info keyspace`
+
+### Show all keys in the database
+
+`keys *`
+
+
+
+# data type in redis
+
+1. strings
+2. lists -> simply lists of strings, sorted by insertion order
+3. sets -> an unordered collection of string
+4. hashes -> are map between string fields and string value
+5. sorted sets -> ordered sets
+
+## 1 String
+
+
