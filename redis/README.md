@@ -37,6 +37,10 @@ Now you can try some codes to play with redis !
 
 # data type in redis
 
+an introduction redis data type -->  https://redis.io/topics/data-types-intro
+
+redis data type --> https://redis.io/topics/data-types
+
 1. strings
 2. lists -> simply lists of strings, sorted by insertion order
 3. sets -> an unordered collection of string
