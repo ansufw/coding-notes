@@ -64,6 +64,7 @@ https://redis.io/commands/#list
 - right push `RPUSH fruits "berry"`
 - left push `LPUSH fruits "appl"`
 - set or replace value `LSET fruits -1 "apple"`
+- left push `LPUSH fruits manggo orange pear`
 - right pop and show the value `RPOP fruits` 
 - left pop and show the value `LPOP fruits`
 - show all list `LRANGE fruits 0 -1`
@@ -80,10 +81,25 @@ https://redis.io/commands#set
 - add value again `SADD animals "lion" "tiger" "rabit"`
 - see members is to view all value `SMEMBERS animals`
 - is member exist `SISMEMBER animals "tiger"`
+- add "class" tagging on animals member `SADD class:mammals:animals lion elephant tiger`
+- show all member that has "class" tagging `SMEMBERS class:mammals:animals`
 
 ## 4 Hashes
 
+https://redis.io/commands#hash
+
+suppose we want to create database for 'Naruto Mugen'
+
+- create 1st character `HSET player:001 name "Uzumaki Naruto" origin "Konoha" attack 45 speed 30 power 46`
+- get all field data 1st character `HGETALL player:001`
+- get specific field data `HGET player:001 speed`
+- add power by 10 `HINCRBY player:001 power 10`
+- delete power `HDEL player:001 power`
+- does naruto still have power?  `HEXISTS player:001 power`
+
 ## 5 Sorted Sets
+
+
 
 
 
