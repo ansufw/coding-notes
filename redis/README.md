@@ -41,7 +41,7 @@ an introduction redis data type -->  https://redis.io/topics/data-types-intro
 
 redis data type --> https://redis.io/topics/data-types
 
-check data type --> `type keyname`
+check data type --> `TYPE keyname`
 
 1. strings
 2. lists -> simply lists of strings, SORTED by insertion order
