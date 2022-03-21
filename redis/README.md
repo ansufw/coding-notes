@@ -52,20 +52,27 @@ https://redis.io/commands/#string
 - multiple set data `MSET fname "Yameena" lname "Azzahra"`
 - multiple get data `MGET fname lname`
 
-## 2 lists
+## 2 Lists
 
 https://redis.io/commands/#list
 
 - right push `RPUSH fruits "banana"`
 - right push `RPUSH fruits "berry"`
-- left push `LPUSH fruits "apple"`
+- left push `LPUSH fruits "appl"`
+- set or replace value `LSET fruits -1 "apple"`
+- right pop and show the value `RPOP fruits` 
+- left pop and show the value `LPOP fruits`
 - show all list `LRANGE fruits 0 -1`
 - show value in first index `LINDEX fruits 0`
 - show value in second index `LINDEX fruits 1`
 - show value in last index `LINDEX fruits -1`
 - show value in before last second index `LINDEX fruits -2`
-- create lists
-- delete list
+
+## 3 Sets
+
+## 4 Hashes
+
+## 5 Sorted Sets
 
 
 
