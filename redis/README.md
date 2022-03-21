@@ -99,9 +99,10 @@ suppose we want to create database for 'Naruto Mugen'
 
 ## 5 Sorted Sets
 
+https://redis.io/commands#sorted-set
 
+the example is inspired from https://redis.io/topics/data-types-intro. We would like to make list students sorted by year of birth.
 
-
-
-
-
+- add 1st student `ZADD students 1997 "Fitriani Eka"`
+- add 2nd student `ZADD students 1991 "Rizkianto"`
+- add 3rd student `ZADD students 1995 "Askar Fikri"`
