@@ -1,8 +1,19 @@
 # Installation
 
-## Windows, Mac, Linux
-
 https://mosquitto.org/download/
+
+## Mac
+
+```
+brew install mosquitto
+```
+
+## Linux via snap
+
+```
+snap install mosquitto
+```
+
 
 ## via Docker
 
