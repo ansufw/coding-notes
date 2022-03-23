@@ -1,9 +1,11 @@
 # install redis via docker
 
+## port 6379
 
 ```sh
 docker run --name my-redis -p 6379:6379 -d redis
 ```
+
 source : https://medium.com/idomongodb/installing-redis-server-using-docker-container-453c3cfffbdf
 
 this command will do the following:
@@ -12,6 +14,12 @@ this command will do the following:
 2. Create and run the container and name it: my-redis
 3. Route port 6379 on my laptop to port 6379 inside the container. 6379 is Redis default port and can be changed
 
+
+## with volume and file configuration
+
+```
+docker run -v /myredis/conf:/usr/local/etc/redis --name myredis redis redis-server /usr/local/etc/redis/redis.conf
+```
 
 # running redis
 
