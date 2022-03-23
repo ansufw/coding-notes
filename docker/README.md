@@ -40,6 +40,7 @@ source:
 - https://typeofnan.dev/how-to-stop-all-docker-containers/
 - https://docs.docker.com/engine/reference/commandline/ps/#formatting
 - https://forums.docker.com/t/var-lib-docker-does-not-exist-on-host/18314/2
+- https://www.reddit.com/r/docker/comments/bp9vy6/how_to_access_docker_volumes_from_host/
 
 
 # Recipe
