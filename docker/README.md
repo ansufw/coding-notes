@@ -31,9 +31,14 @@ There are four important elements (or management command) in Docker:
 
 `docker ps | awk '{print $3}'`
 
+### show volume related to container
+
+`docker ps -a --no-trunc --format "{{.ID}}\t{{.Names}}\t{{.Mounts}}"`
+
 source: 
 - https://www.designcise.com/web/tutorial/whats-the-difference-between-docker-stop-and-docker-kill-commands
 - https://typeofnan.dev/how-to-stop-all-docker-containers/
+- https://docs.docker.com/engine/reference/commandline/ps/#formatting
 
 
 # Recipe
