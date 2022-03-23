@@ -1,3 +1,37 @@
+# Basic Syntax
+
+There are four important elements (or management command) in Docker: 
+1. image
+2. container
+3. volume
+4. network
+
+## Common syntax
+
+- list of the element run `docker <element> ls`, e.g. `docker volume ls`
+- see help for using list command run `docker <element> ls --help`, e.g. `docker container ls --help`
+- clean up the element run `docker <element> prune`, e.g. `docker image prune`
+- see option flag for using prune `docker <element> prune --help`, e.g. `docker network prune --help`
+- remove the element `docker <element> rm <option if any> <element_name or id> `
+- see option for removing the element `docker <element> rm --help`
+- see option for list of the elements and others management commands and the command list `docker --help`
+- check command available in a management command, for instance `docker swarm --help`
+
+## Tricks
+
+### stop all container
+
+ `docker kill $(docker ps -q)`
+
+### remove all container
+
+`docker rm $(docker ps -a -q)`
+
+source: 
+- https://www.designcise.com/web/tutorial/whats-the-difference-between-docker-stop-and-docker-kill-commands
+- https://typeofnan.dev/how-to-stop-all-docker-containers/
+
+
 # Recipe
 
 ## Recipe 1: Building Simple Apps
