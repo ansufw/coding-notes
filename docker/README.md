@@ -39,6 +39,7 @@ source:
 - https://www.designcise.com/web/tutorial/whats-the-difference-between-docker-stop-and-docker-kill-commands
 - https://typeofnan.dev/how-to-stop-all-docker-containers/
 - https://docs.docker.com/engine/reference/commandline/ps/#formatting
+- https://forums.docker.com/t/var-lib-docker-does-not-exist-on-host/18314/2
 
 
 # Recipe
