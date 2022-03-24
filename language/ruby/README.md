@@ -14,7 +14,9 @@ https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-wi
 - check only stable list `rbenv install -l`
 - check all list available `rbenv install -L`
 
-2. 
+2. after getting list and decided the version that you wanna install, run `rbenv install 3.1.1` or `rbenv install 2.7.5` or any version you like
+3. set global by running `rbenv global 3.1.1`
+4. check all version installed in your pc by running `rbenv versions`
 
 
 
