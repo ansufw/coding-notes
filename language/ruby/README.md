@@ -20,3 +20,8 @@ curl -sSL https://get.rvm.io | bash -s stable
 rvm install 2.7.5 
 ```
 
+4. check the list `rvm list`
+5. let's make this more interesting by install another version `rvm insall 3.0.0`
+6. again check the list 
+7. see other commands available `rvm help`
+
