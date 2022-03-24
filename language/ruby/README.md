@@ -5,6 +5,13 @@ using ruby installation manager
 - https://github.com/rvm/rvm
 - https://hixonrails.com/ruby-on-rails-tutorials/ruby-environment-management/
 
+## via rbenv
+
+- check only stable list `rbenv install -l`
+- check all list available `rbenv install -L`
+
+
+
 ## via RVM
 
 http://rvm.io/rvm/install
