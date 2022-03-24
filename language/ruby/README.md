@@ -7,8 +7,12 @@ using ruby installation manager
 
 ## via rbenv
 
+1. show list of ruby versions
+
 - check only stable list `rbenv install -l`
 - check all list available `rbenv install -L`
+
+2. 
 
 
 
