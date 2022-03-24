@@ -8,6 +8,7 @@ using ruby installation manager
 ## via rbenv
 
 https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-macos
 
 1. show list of ruby versions
 
