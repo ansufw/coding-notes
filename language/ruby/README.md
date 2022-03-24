@@ -42,7 +42,18 @@ rvm install 2.7.5
 
 4. check the list `rvm list`
 5. let's make this more interesting by install another version `rvm insall 3.0.0`
-6. again check the list 
+6. again check the list `rvm list`
 7. see other commands available `rvm help`
 8. uninstall rvm `rvm implode`
 
+# install rails
+
+source: https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-when-you-generate-a-new-rails-app-with-rails-new-command
+
+1. install gem dan cari versi rail yang kamu ingin install `gem search '^rails$' --all`
+2. kalau udah ketemu install dengan jalankan `gem install rails -v 6.1.4.1`
+3. tampilkan daftar rail yang udah diinstal `gem list rails --local`
+4. atau semua gem yang terinstall `gem list --local`
+5. install specific rail version `rails _6.1.4.1_ new appname`
+6. go to folder app and run sync `rails s` then open http://localhost:3000/ on your browser
+7. 
