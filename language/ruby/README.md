@@ -44,4 +44,5 @@ rvm install 2.7.5
 5. let's make this more interesting by install another version `rvm insall 3.0.0`
 6. again check the list 
 7. see other commands available `rvm help`
+8. uninstall rvm `rvm implode`
 
