@@ -1,4 +1,10 @@
-# install Ruby via RVM
+# install Ruby 
+
+using ruby installation manager
+- https://github.com/rbenv/rbenv
+- https://github.com/rvm/rvm
+
+## via RVM
 
 http://rvm.io/rvm/install
 
