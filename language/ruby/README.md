@@ -3,6 +3,7 @@
 using ruby installation manager
 - https://github.com/rbenv/rbenv
 - https://github.com/rvm/rvm
+- https://hixonrails.com/ruby-on-rails-tutorials/ruby-environment-management/
 
 ## via RVM
 
