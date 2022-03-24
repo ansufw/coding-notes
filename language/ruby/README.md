@@ -7,6 +7,8 @@ using ruby installation manager
 
 ## via rbenv
 
+https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-20-04
+
 1. show list of ruby versions
 
 - check only stable list `rbenv install -l`
