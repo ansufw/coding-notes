@@ -58,4 +58,4 @@ source: https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-whe
 4. atau semua gem yang terinstall `gem list --local`
 5. install specific rail version `rails _6.1.4.1_ new appname`
 6. go to folder app and run sync `rails s` then open http://localhost:3000/ on your browser
-7. 
+7. check local rail version run `rails -v` in app folder but for global `cd ..` then run `rails -v`
