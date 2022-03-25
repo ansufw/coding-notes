@@ -63,3 +63,9 @@ source: https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-whe
 
 # Ruby-GoLang Comparison
 
+| ruby | golang |
+|--------|-------|
+| _Gemfile.lock_ | _go.sum_ |
+| _Gemfile_ | _go.mod_ |
+| `bundle i` | `go mod tidy` |
+| `rails new app_name` | `go mod init project_name` |
