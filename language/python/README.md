@@ -1,6 +1,8 @@
-# CODE SNIPPETS
+# Install
 
-## install python on Debian 10
+## via terminal
+
+### install python on Debian 10
 1. update system `sudo apt update && sudo apt upgrade`
 2. install the required dependencies `sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev`
 3. download gzippeed tarbal `wget https://www.python.org/ftp/python/3.10.*/Python-3.10.*.tgz` from official source https://www.python.org/downloads/source/
