@@ -1,6 +1,6 @@
 # Install
 
-## via terminal
+## via terminal manually
 
 ### install python on Debian 10
 1. update system `sudo apt update && sudo apt upgrade`
@@ -14,22 +14,39 @@
 
 source: https://computingforgeeks.com/how-to-install-python-on-debian-linux/
 
-## install python module on Debian 10
+### install python module on Debian 10
 1. `sudo apt install python3-pip`
 2. `sudo pip3.10 install module-name` for example `sudo pip3,10 install beautifulsoup4`
 
-## check installed python
+### check installed python
 - check location `ls -ls /usr/bin/python*` or `whereis python` 
 - to know path installed python `which python` or `which python3`
 
-## create new env
+### create new env
 1. create project directory `mkdir pythonapp && cd pythonapp`
 2. create virtual environment `python3.9 -m venv pythonapp_env`, where `pythonapp_env` is name of environment for the project
 3. run `source pythonapp-env/bin/activate` to activate the environment
 4. run `deactivate` to deactivate
 
+## via pyenv (easy way)
 
-## python-golang comparison
+source: https://github.com/pyenv/pyenv-installer
+
+1. install pyenv `curl https://pyenv.run | bash`
+2. restart shell `exec $SHELL`
+3. add these lines to your bashrc
+
+```
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv virtualenv-init -)"
+```
+4. list version available `pyenv install -l` or use filter `pynv install -l | grep "3\.[9]"`
+5. then install a specific version you want 
+6. check installed version `pyenv versions`
+
+
+# python-golang comparison
 
 | python | golang |
 |--------|-------|
