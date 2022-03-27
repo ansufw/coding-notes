@@ -16,7 +16,7 @@ services:
       POSTGRES_USER: root
       POSTGRES_PASSWORD: root
       POSTGRES_DB: test_db
-  	ports:
+    ports:
       - "5432:5432"
   pgadmin:
     container_name: pgadmin4_container
@@ -53,6 +53,12 @@ if you set `POSTGRES_HOST_AUTH_METHOD` in postgres environment to `trust`, then 
 | `CREATE DATABASE db_name;` | create database |
 | `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
 | `INSERT INTO colors VALUES (1, 'red'), (1, 'blue'), (1, 'green');` | insert data to table | 
+
+## Create role with option
+
+`CREATE ROLE <role_name> [option]`
+
+list of option: https://www.postgresql.org/docs/current/sql-createrole.html
 
 ## PostgreSQL Native Data Types
 
