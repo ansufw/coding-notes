@@ -29,7 +29,7 @@ services:
       - "5050:80"
 ```
 
-
+if you set `POSTGRES_HOST_AUTH_METHOD` in postgres environment to `trust`, then `POSTGRES_PASSWORD` is not required.
 
 ## psql command list
 
