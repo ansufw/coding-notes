@@ -64,7 +64,7 @@ list of option: https://www.postgresql.org/docs/current/sql-createrole.html
 
 ## Drop role
 
-`DROP ROLE`
+`DROP ROLE <role_name>`
 
 ## PostgreSQL Native Data Types
 
