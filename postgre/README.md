@@ -33,6 +33,8 @@ if you set `POSTGRES_HOST_AUTH_METHOD` in postgres environment to `trust`, then 
 
 ## psql command list
 
+some most used commands
+
 | command | description |
 |---------|------------:|
 |`psql -d database -U user -W` | connects to database under a specific user |
@@ -59,6 +61,10 @@ if you set `POSTGRES_HOST_AUTH_METHOD` in postgres environment to `trust`, then 
 `CREATE ROLE <role_name> [option]`
 
 list of option: https://www.postgresql.org/docs/current/sql-createrole.html
+
+## Drop role
+
+`DROP ROLE`
 
 ## PostgreSQL Native Data Types
 
