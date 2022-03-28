@@ -14,6 +14,12 @@ this command will do the following:
 2. Create and run the container and name it: my-redis
 3. Route port 6379 on my laptop to port 6379 inside the container. 6379 is Redis default port and can be changed
 
+## with volume
+
+```
+docker run --name redis_container -v /Users/ananto/Documents/data/redis:/usr/local/etc/redis -p 6379:6379 -d redis
+```
+
 
 ## with volume and file configuration
 
