@@ -116,3 +116,13 @@ the example is inspired from https://redis.io/topics/data-types-intro. We would 
 - add 1st student `ZADD students 1997 "Fitriani Eka"`
 - add 2nd student `ZADD students 1991 "Rizkianto"`
 - add 3rd student `ZADD students 1995 "Askar Fikri"`
+
+# Debug Redis
+
+## monitor redis 
+
+```
+redis-cli [-h `host`] [-p `port`] [-a `auth`] monitor > redislog.txt
+```
+
+https://stackoverflow.com/questions/38218253/log-redis-monitor-command-results
