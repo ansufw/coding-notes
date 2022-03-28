@@ -2,6 +2,7 @@
 
 ## plugin
 - https://tablepress.org/
+- https://wordpress.org/plugins/qyrr-code/
 
 ## testing
 - https://www.immuniweb.com/websec/
