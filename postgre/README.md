@@ -62,6 +62,17 @@ some most used commands
 
 list of option: https://www.postgresql.org/docs/current/sql-createrole.html
 
+sample options:
+
+- `SUPERUSER`
+- `LOGIN`
+
+## Restore dump file
+
+`psql dbname < dumpfile`
+
+source: https://www.postgresql.org/docs/current/backup-dump.html
+
 ## Drop role
 
 `DROP ROLE <role_name>`
