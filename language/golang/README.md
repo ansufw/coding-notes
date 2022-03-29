@@ -1,6 +1,6 @@
 # Indicator Learning
 
-## Mastering Beginer to Advance of Go should be able to answer following these questions
+## Mastering Beginer to Advance of Go should be able to answer following these problems
 1. What is Go Type Alias and give the example 
 2. What is Go Channel and give the example
 3. What is Go Routinne and give the example
