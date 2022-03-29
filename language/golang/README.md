@@ -1,3 +1,26 @@
+# Indicator Learning
+
+## Mastering Beginer to Advance of Go should be able to answer following these questions
+1. What is Go Type Alias and give the example 
+2. What is Go Channel and give the example
+3. What is Go Routinne and give the example
+
+## Answer
+
+### 1 Go Type Alias
+
+source:
+ - https://www.youtube.com/watch?v=Vg603e9C-Vg
+ - https://yourbasic.org/golang/type-alias/
+ - https://medium.com/a-journey-with-go/go-aliases-simple-and-efficient-8506d93b079e
+
+### 2 Go Channel
+
+### 3 Go Routine
+
+
+
+
 # Hello World from http
 
 to create simple web apps to print "hello world" in the browser, you need to put this into `main.go` and run
