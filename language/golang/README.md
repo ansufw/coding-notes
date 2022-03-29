@@ -1,4 +1,4 @@
-# Indicator Learning
+# Learning Indicator
 
 ## Mastering Beginer to Advance of Go should be able to answer following these problems
 1. What is Go Type Alias and give the example 
