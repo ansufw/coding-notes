@@ -57,6 +57,13 @@ some most used commands
 | `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
 | `INSERT INTO colors VALUES (1, 'red'), (1, 'blue'), (1, 'green');` | insert data to table | 
 
+## Show all database from terminal
+
+```
+psql -U root -c "SELECT * FROM pg_database";
+```
+- `-U` is user 
+- `-c` is command querry
 
 ## Create role with option
 
