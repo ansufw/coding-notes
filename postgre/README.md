@@ -54,7 +54,7 @@ some most used commands
 
 When you get a connection to PostgreSQL it is always to a particular database. To access a different database, you must get a new connection.
 
-Using \c in psql closes the old connection and acquires a new one, using the specified database and/or credentials. You get a whole new back-end process and everything.
+Using \c in psql closes the old connection and acquires a new one, using the specified database and/or credentials. You get a whole new back-end process and everything. (https://stackoverflow.com/questions/10335561/use-database-name-command-in-postgresql)
 
 ## Show all database from terminal
 
