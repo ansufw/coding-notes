@@ -51,11 +51,10 @@ some most used commands
 | `\H` | switch the output to the HTML format | 
 | `\q` | exit psql shell | 
 | `\c db_name` | switch database |
-| `SELECT current_database()` | retrieve the current database version  |
-| `SELECT version();` | retrieve the current version |
-| `CREATE DATABASE db_name;` | create database |
-| `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
-| `INSERT INTO colors VALUES (1, 'red'), (1, 'blue'), (1, 'green');` | insert data to table | 
+
+When you get a connection to PostgreSQL it is always to a particular database. To access a different database, you must get a new connection.
+
+Using \c in psql closes the old connection and acquires a new one, using the specified database and/or credentials. You get a whole new back-end process and everything.
 
 ## Show all database from terminal
 
@@ -64,6 +63,18 @@ psql -U root -c "SELECT * FROM pg_database";
 ```
 - `-U` is user 
 - `-c` is command querry
+
+some of query command can be seen in the table below
+
+| query command | description |
+|---------|------------:|
+| `SELECT current_database()` | retrieve the current database version  |
+| `SELECT version();` | retrieve the current version |
+| `CREATE DATABASE db_name;` | create database |
+| `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
+| `INSERT INTO colors VALUES (1, 'red'), (1, 'blue'), (1, 'green');` | insert data to table | 
+
+
 
 ## Create role with option
 
