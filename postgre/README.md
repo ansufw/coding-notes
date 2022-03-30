@@ -51,7 +51,7 @@ some most used commands
 | `\H` | switch the output to the HTML format | 
 | `\q` | exit psql shell | 
 | `\c db_name` | switch database |
-| `SELECT current_database()` | select  |
+| `SELECT current_database()` | retrieve the current database version  |
 | `SELECT version();` | retrieve the current version |
 | `CREATE DATABASE db_name;` | create database |
 | `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
