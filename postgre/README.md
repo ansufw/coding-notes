@@ -51,10 +51,12 @@ some most used commands
 | `\H` | switch the output to the HTML format | 
 | `\q` | exit psql shell | 
 | `\c db_name` | switch database |
+| `SELECT current_database()` | select  |
 | `SELECT version();` | retrieve the current version |
 | `CREATE DATABASE db_name;` | create database |
 | `CREATE TABLE colors (ColorID int, ColorName char(20));` | create table named 'colors' |
 | `INSERT INTO colors VALUES (1, 'red'), (1, 'blue'), (1, 'green');` | insert data to table | 
+
 
 ## Create role with option
 
