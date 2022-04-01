@@ -4,6 +4,9 @@ this notes is about diameter protocol
 
 ## Introduction
 
+Before dive into diameter protocol, you should be familiar with telecommunications networks such as traditional Public Switched Telephone Network (PSTN) and describe the Universal Mobile Telecommunications System (UMTS) that integrates the internet with wireless technologies. Then explanation about the _IP 
+Multimedia core network Subsystem_ (IMS) developed based on UMTS, which enhances the functionality of the packet-switches service domain.
+
 In PSTN, the real-time billing information is delivered through the Signaling System no.7 (SS7) network. During the call setup/release process, 
 the monitor system tracks SS7 message of the call and, once the call is complete generates a Call Detail Record (CDR) in the AMA format. 
 The CDR is then transferred to the rating and billing system.
