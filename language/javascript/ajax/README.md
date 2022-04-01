@@ -48,3 +48,8 @@ $(document).ready(function(){
 });
 
 ```
+
+
+source: 
+- https://stackoverflow.com/questions/28224730/pass-data-from-html-to-jquery-ajax
+- or googling passing data from html to ajax, etc....
