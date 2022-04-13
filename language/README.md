@@ -17,7 +17,7 @@ Interpreter Languages
 ## Bash Setting for Pyenv, Phpenv and Rbenv:
 
 ```sh
-PATH="$HOME/.pyenv/bin:$HOME/.phpenv/bin:$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.pyenv/bin:$HOME/.phpenv/bin:$HOME/.rbenv/bin:$PATH"
 eval "$(phpenv init -)"
 eval "$(rbenv init -)"
 eval "$(pyenv init --path)"
