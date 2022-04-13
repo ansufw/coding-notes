@@ -7,8 +7,12 @@ but now I am starting to learn some new and most used technology.
 - but, I realize that i should mastering in the beginning javascript for server side processing and AJAX.
 
 
+Interpreter Languages
+1. Python
+2. PHP
+3. Ruby
+4. JavaScript
 
-1. python
-2. golang
-3. ruby
-4. javascript
+Compiler Languages
+1. Go
+2. Java
