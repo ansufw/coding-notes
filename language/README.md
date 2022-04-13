@@ -6,6 +6,9 @@ but now I am starting to learn some new and most used technology.
 - I learn Ruby since there is demand on this programming language.
 - but, I realize that i should mastering in the beginning javascript for server side processing and AJAX.
 
+Compiler Languages
+1. Go
+2. C++
 
 Interpreter Languages
 1. Python
@@ -13,6 +16,4 @@ Interpreter Languages
 3. Ruby
 4. JavaScript
 
-Compiler Languages
-1. Go
-2. Java
+
