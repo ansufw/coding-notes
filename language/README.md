@@ -113,6 +113,16 @@ Go to ProjectName and run
 php artisan serve
 ```
 
+#### install python with pyenv
+
+install some python version
+
+```sh
+pyenv install 2.7.18
+pyenv install 3.10.4
+```
+
+
 
 
 
