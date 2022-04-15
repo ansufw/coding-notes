@@ -103,6 +103,11 @@ For specific version, use this command:
 ```sh
 composer create-project laravel/laravel="5.7.*" ProjectName
 ```
+note:    
+you cannot install laravel version 5 with php 8, user php 7.x.   
+other laravel version only can be installed with minimum php version.    
+please do research about it.
+
 Go to ProjectName and run
 ```sh
 php artisan serve
