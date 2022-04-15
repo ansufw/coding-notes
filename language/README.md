@@ -95,7 +95,11 @@ composer global require laravel/installer
 
 ```
 Then
+```sh
+laravel new ProjectName
+```
 
+For specific version, use this command:
 ```sh
 composer create-project laravel/laravel="5.7.*" ProjectName
 ```
