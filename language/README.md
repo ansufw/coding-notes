@@ -85,5 +85,25 @@ wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bi
 sudo dpkg -i tidy-5.4.0-64bit.deb
 ```
 
+#### install laravel project
+(source: https://panjeh.medium.com/how-to-install-specific-laravel-version-using-composer-f30df54632b5)
+
+First, download the Laravel installer using Composer:
+
+```sh
+composer global require laravel/installer
+
+```
+Then
+
+```sh
+composer create-project laravel/laravel="5.7.*" ProjectName
+```
+Go to ProjectName and run
+```sh
+php artisan serve
+```
+
+
 
 
