@@ -98,4 +98,24 @@ and reload apache
 ```
 systemctl reload apache2
 ```
+# Setting SSL Certificate
 
+Install the required app
+
+```sh
+sudo apt install certbot python3-certbot-apache
+```
+
+Run the certbot
+
+```sh
+sudo certbot --apache
+```
+
+Then follow the instruction.    
+
+To check the status
+
+```sh
+sudo systemctl certbot.timer
+```
