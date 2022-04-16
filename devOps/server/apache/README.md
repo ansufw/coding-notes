@@ -130,7 +130,7 @@ Then follow the instruction.
 To check the status
 
 ```sh
-sudo systemctl certbot.timer
+sudo systemctl status certbot.timer
 ```
 # Check log files
 
@@ -146,5 +146,16 @@ enter root mode
 sudo su
 ```
 go to log dir `cd /var/log/apache2`, and run `tail -f log_file_name` to see last 10 logs and update
+
+
+# before change web server
+
+turn off certbot
+
+```sh
+sudo systemctl stop certbot.timer
+sudo systemctl disable certbot.timer
+```
+
 
 
