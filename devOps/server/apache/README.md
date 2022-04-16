@@ -3,10 +3,23 @@
 ```sh
 sudo apt install apache2
 ```
-start apache
+start and stop apache
 ```sh
+# start
 systemctl start apache2
+# stop
+systemctl stop apache2
 ```
+disable apache will turn off automatic start when server reboot
+```sh
+systemctl disable apache2
+```
+to enable run
+```sh
+systemctl enable apache2
+```
+
+
 check apache status
 ```sh
 systemctl status apache2
@@ -119,3 +132,19 @@ To check the status
 ```sh
 sudo systemctl certbot.timer
 ```
+# Check log files
+
+create root (if root not set yet)
+```sh
+sudo passwd root
+```
+source: https://linuxize.com/post/how-to-enable-and-disable-root-user-account-in-ubuntu/    
+
+enter root mode
+
+```sh
+sudo su
+```
+go to log dir `cd /var/log/apache2`, and run `tail -f log_file_name` to see last 10 logs and update
+
+
