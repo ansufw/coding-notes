@@ -138,6 +138,7 @@ MySql-Workbench, /snap/bin/mysql-workbench-community
 - SSR (SimpleScreenRecorder)
 - yEd graph editor
 - Geany
+- Vidyard (installed on Chrome)
 
 ### git installation
 
