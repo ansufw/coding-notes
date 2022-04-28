@@ -126,7 +126,7 @@ Code, /snap/bin/code
 MySql-Workbench, /snap/bin/mysql-workbench-community
 ```
 
-## Installing fundamental software in Debian 10
+## list of software for works
 
 - git
 - vscode (snap)
@@ -134,6 +134,10 @@ MySql-Workbench, /snap/bin/mysql-workbench-community
 - docker
 - postman
 - chrome
+- flameshot (snap)
+- SSR (SimpleScreenRecorder)
+- yEd graph editor
+- Geany
 
 ### git installation
 
