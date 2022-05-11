@@ -31,3 +31,7 @@ Is an administrative domain ofers associated with ownership. An administrative d
 
 Is the situation where the user is connected to a network that is not the network of its own internet service provider.
 
+### Diameter server
+
+Basically this is app connects to Diameter and fetch CCR from it, check whether company could afford it (via company balance or bought package), build JSON for CDR (CCR entity in our system) and pass it to Billing CDR seriver where we deduct from balances/packages. For now I’d like to know how we fetch data from Diameter and where is the queue which is used to store built CDRs JSONs to pass it later to BillingCDR service
+
