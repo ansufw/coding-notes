@@ -118,12 +118,21 @@ go to `menu` > `Preferences` > `jgmenu` > `Edit Menu Content`
 in the last of line in file `prepend.csv`, add the following lines
 
 ```csv
-^tag(apps)
 Back,^back()
-Chromium, /snap/bin/chromium
-Postman, postman
-Code, /snap/bin/code
-MySql-Workbench, /snap/bin/mysql-workbench-community
+chromium, /snap/bin/chromium
+pycharm, /snap/bin/pycharm-community
+postman, /snap/bin/postman
+vsCode, /snap/bin/code
+codium, /snap/bin/codium
+subl, /snap/bin/subl
+telegram, /snap/bin/telegram-desktop,
+termius, /snap/bin/termius-app,
+skype, /snap/bin/skype
+mySql-Workbench, /snap/bin/mysql-workbench-community
+ooffice, /snap/bin/onlyoffice-desktopeditors
+sftpclient, /snap/bin/sftpclient
+flameshot, /snap/bin/flameshot
+digikam, /snap/bin/digikam
 ```
 
 ## list of software for works
