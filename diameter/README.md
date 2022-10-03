@@ -35,3 +35,17 @@ Is the situation where the user is connected to a network that is not the networ
 
 Basically this is app connects to Diameter and fetch CCR from it, check whether company could afford it (via company balance or bought package), build JSON for CDR (CCR entity in our system) and pass it to Billing CDR seriver where we deduct from balances/packages. For now I’d like to know how we fetch data from Diameter and where is the queue which is used to store built CDRs JSONs to pass it later to BillingCDR service
 
+## Application
+
+A diameter application is not a software application but it is a protocol based on the Diameter base protocol defined in RFC 6733 and RFC 7075 (Obsolotes: RFC 3588). Each application is defined by an application identifier and can add new command codes and/or new mandatory AVPs (Attribute-Value Pair). Adding a new optional AVP does not require a new application.
+
+Examples of Diameter Applications:
+- Diameter Mobile IPv4 Application (MobileIP, RFC 4004)
+- Diameter Network Access Server Application (NASREQ, RFC 7155)(Obsoletes: RFC 4005)
+- Diameter Extensible Authentication Protocol Application (RFC 4072)
+- Diameter Credit-Control Application (DCCA, RFC 8506])(Obsoletes: RFC 4006)
+- Diameter Session Initiation Protocol Application (RFC 4740)
+- Various applications in the 3GPP IP Multimedia Subsystem
+
+(source: https://en.wikipedia.org/wiki/Diameter_(protocol))
+
