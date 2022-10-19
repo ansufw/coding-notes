@@ -68,7 +68,7 @@ source: https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-whe
 | _Gemfile.lock_ | _go.sum_ |
 | _Gemfile_ | _go.mod_ |
 | `bundle i` | `go mod tidy` |
-| `rails new app_name` | `go mod init project_name` |
+| `bundle init` or `rails new app_name` | `go mod init project_name` |
 
 # Class and Object
 An object is an instance of the class
