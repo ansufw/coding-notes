@@ -10,6 +10,7 @@ We can view channel as internal FIFO (first in, first out)
 - Given the channel denoted by the variable ch
   - Sending is done with `ch <- data`; the arrow points into the channel as the data travels into it
   - Receiving is done with `data := <- ch`; the arrow points away from the channel as the data travels out of it. 
+- Sends and Receives are blocking. Code execution will stop until the send and or receive is successfully completed. The definition of completion depends on the setup of the channel.
   
 ## Channel in Action
 
