@@ -121,6 +121,22 @@ from the most common:
 7. Geometric
 etc...
 
+## run psql commmand via Docker
+
+### SELECT command
+
+```
+docker exec -ti container_name psql -U postgres -d database_name -c "SELECT * FROM table_name LIMIT 1"
+```
+
+### DROP database
+
+```
+docker exec -ti container_name psql -U postgres -c "DROP DATABASE database_name"
+```
+
+
+
 ## tools
 
 - https://www.sqltabs.com/
