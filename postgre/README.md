@@ -126,19 +126,31 @@ etc...
 ### SELECT command
 
 ```
-docker exec -ti container_name psql -U postgres -d database_name -c "SELECT * FROM table_name LIMIT 1"
+docker exec -ti container_name psql -U user_name -d database_name -c "SELECT * FROM table_name LIMIT 1"
+```
+
+### CREATE database
+
+```
+docker exec -ti container_name psql -U user_name -c "CREATE DATABASE database_name" 
 ```
 
 ### DROP database
 
 ```
-docker exec -ti container_name psql -U postgres -c "DROP DATABASE database_name"
+docker exec -ti container_name psql -U user_name -c "DROP DATABASE database_name"
 ```
 
 ### SHOW all databases
 
 ```
-docker exec -ti container_name  psql -U root -c "SELECT * FROM pg_database";
+docker exec -ti container_name  psql -U user_name -c "SELECT * FROM pg_database"
+```
+
+### Restore database
+
+```
+docker exec -i container_name psql -U user_name -d database_name < path/to/dump.sql
 ```
 
 
