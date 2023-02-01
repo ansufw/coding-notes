@@ -121,7 +121,7 @@ from the most common:
 7. Geometric
 etc...
 
-## run psql commmand via Docker
+## Run psql Commmand via Docker 🏠
 
 ### SELECT command
 
@@ -135,6 +135,11 @@ docker exec -ti container_name psql -U postgres -d database_name -c "SELECT * FR
 docker exec -ti container_name psql -U postgres -c "DROP DATABASE database_name"
 ```
 
+### SHOW all databases
+
+```
+docker exec -ti container_name  psql -U root -c "SELECT * FROM pg_database";
+```
 
 
 ## tools
