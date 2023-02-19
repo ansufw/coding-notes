@@ -1,3 +1,49 @@
+
+## Installing Go
+
+tested in Debian 10.
+Execute these following lines on the terminal
+
+```bash
+
+# preparation
+sudo apt update
+sudo apt install curl
+
+# choose version
+version=1.17.4
+
+# download go
+curl -O https://dl.google.com/go/go$version.linux-amd64.tar.gz
+
+# extract tarball
+tar xfv go$version.linux-amd64.tar.gz
+# note: x for extract, f for filename and v for verbose
+
+# Recursively change the owner and group of this directory into root and move to /usr/local
+sudo chown -R root:root ./go
+sudo mv go /usr/local
+
+# setting path
+nano ~/.bashrc
+
+# add the folling lines to .bashrc and save it
+GOPATH=$HOME/work
+PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
+
+# refresh by running
+source ~/.bashrc
+
+# testing
+go version
+
+```
+
+alternatively, put the lines to file, say `installer.sh`, set the execute permission using `chmod +x` and run the script using `./installer.sh` or `bash installer.sh` or `sh installer.sh`
+
+reference : https://www.digitalocean.com/community/tutorials/how-to-install-go-on-debian-10
+
+
 # Learning Indicator
 
 ## Mastering Beginer to Advance of Go should be able to answer following these problems
