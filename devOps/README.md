@@ -3,7 +3,7 @@
 - Docker
 - Kubernetes
 - Portainer
-
+- Vagrant
 
 ## Portainer
 

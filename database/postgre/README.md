@@ -149,11 +149,21 @@ docker exec -ti container_name  psql -U user_name -c "SELECT * FROM pg_database"
 
 ### Restore database
 
+- option 1
+
 ```
 docker exec -i container_name psql -U user_name -d database_name < path/to/dump.sql
 ```
 
+- option 2
 
-## tools
+```
+cat dump_file.sql | docker exec -i container_name psql -U username -d dbname
 
-- https://www.sqltabs.com/
+```
+
+### Backup database
+
+```
+docker exec -t your-db-container pg_dumpall -c -U postgres > dump_`date +%d-%m-%Y"_"%H_%M_%S`.sql
+```
