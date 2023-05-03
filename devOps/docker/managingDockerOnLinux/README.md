@@ -3,6 +3,7 @@
 highlightnote:
 - docker socket is a dependency of the docker service
 - containerd service is also a dependency of the docker service
+- installing docker-ce-cli only withoud docker daemon (docker-ce) will make it will be a client-only machine
 
 ## Installing docker for your distro
 
@@ -30,6 +31,11 @@ highlightnote:
 
 ## Using Docker Context
 
+cheatsheet:
+
+- manage context `docker context`
+- 
+
 ### Command to Container
 
 - 🖥️ docker command
@@ -37,3 +43,9 @@ highlightnote:
 - 🔗 docker engine API (create container, list image, etc)
 - 🐳 docker engine daemon (dockerd) execute the incoming API task / query
 - 📦  containers (isolated process) & associated resources: images, mounts/filesytem, networking, processes, cgroups, security.
+
+### Two Client Scenarios To Study
+
+- cli-only
+- getdc
+
