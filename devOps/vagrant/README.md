@@ -14,3 +14,7 @@
 5. Destroy vm:
    1. go to project dir and run `vagrant destroy`
    2. or run `vagrant destroy [vm-id]` from anywhere
+6. Stop vm:
+   1. go to project dir and run `vagrant halt`
+   2. or run `vagrant halt [vm-id]` from anywhere
+7. reload vm: `vagrant reload`
