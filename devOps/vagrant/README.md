@@ -19,4 +19,3 @@
    2. or run `vagrant halt [vm-id]` from anywhere
 7. reload vm: `vagrant reload`
 8. run provision: `vagrant provision`
-    - 
