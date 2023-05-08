@@ -164,6 +164,20 @@ cat dump_file.sql | docker exec -i container_name psql -U username -d dbname
 
 ### Backup database
 
+- option 1
+
 ```
 docker exec -t your-db-container pg_dumpall -c -U postgres > dump_`date +%d-%m-%Y"_"%H_%M_%S`.sql
+```
+
+- option 2a (with specific db name)
+
+```
+docker exec -t your-db-container pg_dump -c -U postgres -d your-db-name > dump_`date +%d-%m-%Y"_"%H_%M_%S`.sql
+```
+
+- option 2b
+
+```
+docker exec -t your-db-container pg_dump -U postgres -F c -d your-db-name > dump_`date +%d-%m-%Y"_"%H_%M_%S`.sql
 ```
