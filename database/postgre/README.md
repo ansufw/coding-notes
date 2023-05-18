@@ -187,11 +187,6 @@ docker exec -t your-db-container pg_dump -U postgres -F c -d your-db-name > dump
 pg_dump -U <username> -d <database_name> -F p -b -v -f <nama_file_backup>.sql
 ```
 
-Tentu! Berikut adalah contoh perintah pg_dump yang mencakup perintah CREATE TABLE:
-
-php
-Copy code
-pg_dump -U <username> -d <database_name> -F p -b -v -f <nama_file_backup>.sql
 Penjelasan opsi yang digunakan dalam perintah ini:
 
 -U <username>: Menentukan nama pengguna PostgreSQL yang memiliki akses ke basis data yang akan dibackup.   
