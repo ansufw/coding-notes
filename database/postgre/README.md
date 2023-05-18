@@ -194,10 +194,16 @@ Copy code
 pg_dump -U <username> -d <database_name> -F p -b -v -f <nama_file_backup>.sql
 Penjelasan opsi yang digunakan dalam perintah ini:
 
--U <username>: Menentukan nama pengguna PostgreSQL yang memiliki akses ke basis data yang akan dibackup.
--d <database_name>: Menentukan nama basis data yang akan dibackup.
--F p: Menggunakan format plain SQL untuk file backup. Ini memastikan bahwa file backup akan berisi perintah SQL yang dapat dieksekusi.
--b: Termasuk perintah CREATE TABLE dalam file backup. Opsi ini memastikan bahwa struktur tabel akan disertakan dalam backup.
--v: Menghasilkan output yang lebih detail selama proses backup.
--f <nama_file_backup>.sql: Menentukan nama file untuk menyimpan hasil backup. Anda dapat mengganti <nama_file_backup> dengan nama file yang Anda inginkan.
+-U <username>: Menentukan nama pengguna PostgreSQL yang memiliki akses ke basis data yang akan dibackup.   
+  
+-d <database_name>: Menentukan nama basis data yang akan dibackup.    
+  
+-F p: Menggunakan format plain SQL untuk file backup. Ini memastikan bahwa file backup akan berisi perintah SQL yang dapat dieksekusi.   
+  
+-b: Termasuk perintah CREATE TABLE dalam file backup. Opsi ini memastikan bahwa struktur tabel akan disertakan dalam backup.     
+  
+-v: Menghasilkan output yang lebih detail selama proses backup.    
+  
+-f <nama_file_backup>.sql: Menentukan nama file untuk menyimpan hasil backup. Anda dapat mengganti <nama_file_backup> dengan nama file yang Anda inginkan.   
+  
 Pastikan Anda mengganti <username>, <database_name>, dan <nama_file_backup> dengan nilai yang sesuai sesuai dengan lingkungan Anda. Setelah menjalankan perintah ini, Anda akan memiliki file backup dalam format SQL yang mencakup perintah CREATE TABLE serta data dari basis data yang Anda backup.
