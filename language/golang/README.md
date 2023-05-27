@@ -128,3 +128,6 @@ func listenForKeyPress() {
 	fmt.Println("you pressed", string(char))
 }
 ```
+
+
+https://tecadmin.net/install-go-on-linuxmint/
