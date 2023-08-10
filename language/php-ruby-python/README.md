@@ -63,3 +63,7 @@ install some python version
 pyenv install 2.7.18
 pyenv install 3.10.4
 ```
+
+## References
+
+- https://dev.to/micmath/manage-multiple-versions-of-php-with-homebrew-4dba
