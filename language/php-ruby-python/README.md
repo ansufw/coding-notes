@@ -1,4 +1,4 @@
-## Install PHP, Ruby, Python
+## Install PHP, Ruby, Python, Java
 
 ### Bash Setting for Pyenv, Phpenv and Rbenv:
 
@@ -67,3 +67,4 @@ pyenv install 3.10.4
 ## References
 
 - https://dev.to/micmath/manage-multiple-versions-of-php-with-homebrew-4dba
+- [Managing multiple Java versions in MacOS](https://gist.github.com/gramcha/81dcec3f1e4ce8cffd7f248d3e2a42a7)
