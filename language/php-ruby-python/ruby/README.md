@@ -79,4 +79,5 @@ An object is an instance of the class
 ## Gem
 
 - https://github.com/sferik/x-ruby
+- https://github.com/sferik/twitter-ruby
 
