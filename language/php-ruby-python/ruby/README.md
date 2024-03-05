@@ -81,3 +81,7 @@ An object is an instance of the class
 - https://github.com/sferik/x-ruby
 - https://github.com/sferik/twitter-ruby
 
+# Notes
+
+- https://guides.rubygems.org/make-your-own-gem/
+
