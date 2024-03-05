@@ -74,3 +74,9 @@ source: https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-whe
 An object is an instance of the class
 - [stackoverflow: nested classes/module](https://stackoverflow.com/questions/6195661/when-to-use-nested-classes-and-classes-nested-in-modules)
 
+# Sample Ruby Project
+
+## Gem
+
+- https://github.com/sferik/x-ruby
+
