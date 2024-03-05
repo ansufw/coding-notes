@@ -74,6 +74,33 @@ source: https://www.aloucaslabs.com/miniposts/using-a-specific-rails-version-whe
 An object is an instance of the class
 - [stackoverflow: nested classes/module](https://stackoverflow.com/questions/6195661/when-to-use-nested-classes-and-classes-nested-in-modules)
 
+# VS-Code configuration
+
+in `settings.json` of vscode (ctrl+shift+p, open workspace setting), put this configuration
+
+```json
+{
+    "[ruby]": {
+        "editor.defaultFormatter": "rubocop.vscode-rubocop"
+      },
+      "editor.formatOnSave": true,
+      "rubocop.autocorrect": true,
+      // if true, will complain the missing frozen string literal comment but not correct it
+      // if false, will complain and correct it
+      // true by default
+      "rubocop.safeAutocorrect": true,
+      // if true, only lint and correct the unused variable
+      // false by default
+      "rubocop.lintMode": true,
+      // if true, only correct layout
+      // if false, correct the lint also including the missing frozen string literal
+      // false by default
+      "rubocop.layoutMode": true,
+      // true by default
+      "rubocop.yjitEnabled": true,
+}
+```
+
 # Sample Ruby Project
 
 ## Gem
@@ -84,4 +111,6 @@ An object is an instance of the class
 # Notes
 
 - https://guides.rubygems.org/make-your-own-gem/
+
+
 
