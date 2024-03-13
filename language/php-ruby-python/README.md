@@ -1,6 +1,6 @@
-## Install PHP, Ruby, Python, Java
+# Install PHP, Ruby, Python, Java
 
-### Bash Setting for Pyenv, Phpenv and Rbenv:
+*Bash Setting for Pyenv, Phpenv and Rbenv:*
 
 ```sh
 export PATH="$HOME/.pyenv/bin:$HOME/.phpenv/bin:$HOME/.rbenv/bin:$PATH"
@@ -10,7 +10,21 @@ eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 ```
 
-#### instal dependencies of PHP
+## PHP
+
+referensi:
+- https://stackoverflow.com/questions/34909101/how-can-i-easily-switch-between-php-versions-on-mac-osx
+- https://github.com/hjbdev/pvm
+
+### Install
+
+>> MacOS/Linux
+1. get list of program `brew search php`
+2. check installed program `brew list | grep php`
+
+>> Windows
+
+### install dependencies of PHP
 
 install some dependencies
 ```sh
@@ -27,7 +41,7 @@ wget https://github.com/htacg/tidy-html5/releases/download/5.4.0/tidy-5.4.0-64bi
 sudo dpkg -i tidy-5.4.0-64bit.deb
 ```
 
-#### install laravel project
+### install laravel project
 (source: https://panjeh.medium.com/how-to-install-specific-laravel-version-using-composer-f30df54632b5)
 
 First, download the Laravel installer using Composer:
@@ -54,6 +68,8 @@ Go to ProjectName and run
 ```sh
 php artisan serve
 ```
+
+## Python
 
 #### install python with pyenv
 
