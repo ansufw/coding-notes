@@ -101,6 +101,41 @@ in `settings.json` of vscode (ctrl+shift+p, open workspace setting), put this co
 }
 ```
 
+update: 28-03-2024
+
+```json
+{
+    "[ruby]": {
+        // "editor.defaultFormatter": "Shopify.ruby-lsp", // Use the Ruby LSP as the default formatter
+        // "editor.defaultFormatter": "rubocop.vscode-rubocop",
+        "editor.defaultFormatter": "castwide.solargraph",
+
+        "editor.formatOnSave": true, // Format files automatically when saving
+        "editor.tabSize": 2, // Use 2 spaces for indentation
+        "editor.insertSpaces": true, // Use spaces and not tabs for indentantion
+        "editor.semanticHighlighting.enabled": true, // Enable semantic highlighting
+        "editor.formatOnType": true // Enable formatting while typing
+      },
+      "rubyLsp.formatter": "auto",
+      "rubyLsp.rubyVersionManager": "rbenv",
+
+      "rubocop.autocorrect": true,
+      "rubocop.safeAutocorrect": true,
+      "rubocop.lintMode": true,
+      "rubocop.layoutMode": true,
+      "rubocop.yjitEnabled": true,
+
+      "solargraph.autoformat": true,
+      "solargraph.formatting": true
+}
+```
+
+references:
+- https://rubocop.org/
+- https://sorbet.org/
+- https://solargraph.org/
+- https://shopify.github.io/ruby-lsp/index.html
+
 # Sample Ruby Project
 
 ## Gem
