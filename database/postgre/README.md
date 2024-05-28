@@ -147,6 +147,11 @@ docker exec -ti container_name psql -U user_name -c "DROP DATABASE database_name
 docker exec -ti container_name  psql -U user_name -c "SELECT * FROM pg_database"
 ```
 
+### CREATE TABLE
+```
+docker exec -it pg_container_no_pass psql -U postgres -d <db_name> -c "CREATE TABLE <table_name> (id SERIAL, name VARCHAR)"
+```
+
 ### Restore database
 
 - option 1
