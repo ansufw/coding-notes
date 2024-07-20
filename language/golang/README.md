@@ -1,5 +1,5 @@
 
-## Installing Go
+# Installing Go
 
 tested in Debian 10.
 Execute these following lines on the terminal
@@ -131,3 +131,6 @@ func listenForKeyPress() {
 
 
 https://tecadmin.net/install-go-on-linuxmint/
+
+# Bookmark
+- https://stackoverflow.com/questions/34190170/go-interface-method-returning-interface-doesnt-match-method-returning-concrete
