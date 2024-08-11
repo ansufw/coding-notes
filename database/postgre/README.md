@@ -207,3 +207,7 @@ Penjelasan opsi yang digunakan dalam perintah ini:
 -f <nama_file_backup>.sql: Menentukan nama file untuk menyimpan hasil backup. Anda dapat mengganti <nama_file_backup> dengan nama file yang Anda inginkan.   
   
 Pastikan Anda mengganti <username>, <database_name>, dan <nama_file_backup> dengan nilai yang sesuai sesuai dengan lingkungan Anda. Setelah menjalankan perintah ini, Anda akan memiliki file backup dalam format SQL yang mencakup perintah CREATE TABLE serta data dari basis data yang Anda backup.
+
+
+Problem:
+- https://stackoverflow.com/questions/36753568/postgresql-tables-exists-but-getting-relation-does-not-exist-when-querying
