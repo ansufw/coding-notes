@@ -20,3 +20,7 @@ git remote -v
 // set new remote url
 git remote set-url origin git@github.com:USERNAME/REPO-NAME.git
 ```
+
+
+reference:
+https://stackoverflow.com/questions/54571213/how-to-fix-the-project-you-were-looking-for-could-not-be-found-when-using-git
