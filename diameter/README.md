@@ -54,13 +54,15 @@ Examples of Diameter Applications:
 ## Youtube
 
 ### Rezky Channel
-1. [235 Diameter Characteristics](https://www.youtube.com/watch?v=e_vmIblQ_VY)
-2. [236 Diameter Protocol](https://www.youtube.com/watch?v=NyZUGQQTUHg)
-3. [237 Mobile IP](https://www.youtube.com/watch?v=QauUSU3Ud_Y)
-4. [238 Diameter Architecture](https://www.youtube.com/watch?v=Tzq09rNGaMY)
-5. [239 Two Pieces](https://www.youtube.com/watch?v=J85gFJENsLE)
-6. [240 AVP](https://www.youtube.com/watch?v=3jZZz4WjkzY)
-7. [241 Decentralized Access Control Administration](https://www.youtube.com/watch?v=yZ8EFGwJr4I)
-8. [241 Controlling Access to Sensitive Data](https://www.youtube.com/watch?v=VUPrav48TaI)
-9. 
+[235 Diameter Characteristics](https://www.youtube.com/watch?v=e_vmIblQ_VY)
+[236 Diameter Protocol](https://www.youtube.com/watch?v=NyZUGQQTUHg)
+[237 Mobile IP](https://www.youtube.com/watch?v=QauUSU3Ud_Y)
+[238 Diameter Architecture](https://www.youtube.com/watch?v=Tzq09rNGaMY)
+[239 Two Pieces](https://www.youtube.com/watch?v=J85gFJENsLE)
+[240 AVP](https://www.youtube.com/watch?v=3jZZz4WjkzY)
+[241 Decentralized Access Control Administration](https://www.youtube.com/watch?v=yZ8EFGwJr4I)
+[242 Controlling Access to Sensitive Data](https://www.youtube.com/watch?v=VUPrav48TaI)
+[243 IDS(Intrusion Detection Server)](https://www.youtube.com/watch?v=amf0LW6L1cc)
+[244 IDS steps](https://www.youtube.com/watch?v=8j-qsm8-GSw)
+[245 Network IDS](https://www.youtube.com/watch?v=I9V2rzNknR0)
 
