@@ -49,3 +49,18 @@ Examples of Diameter Applications:
 
 (source: https://en.wikipedia.org/wiki/Diameter_(protocol))
 
+# Learning Resources
+
+## Youtube
+
+### Rezky Channel
+1. [235 Diameter Characteristics](https://www.youtube.com/watch?v=e_vmIblQ_VY)
+2. [236 Diameter Protocol](https://www.youtube.com/watch?v=NyZUGQQTUHg)
+3. [237 Mobile IP](https://www.youtube.com/watch?v=QauUSU3Ud_Y)
+4. [238 Diameter Architecture](https://www.youtube.com/watch?v=Tzq09rNGaMY)
+5. [239 Two Pieces](https://www.youtube.com/watch?v=J85gFJENsLE)
+6. [240 AVP](https://www.youtube.com/watch?v=3jZZz4WjkzY)
+7. [241 Decentralized Access Control Administration](https://www.youtube.com/watch?v=yZ8EFGwJr4I)
+8. [241 Controlling Access to Sensitive Data](https://www.youtube.com/watch?v=VUPrav48TaI)
+9. 
+
