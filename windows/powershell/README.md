@@ -39,3 +39,11 @@ $env:MY_VAR
 Remove-Item Env:\MY_ENV_VAR
 ```
 
+## Refresh powershell
+
+```powershell
+refreshenv
+```
+note: RefreshEnv.cmd does not work when run from this process. If you're in PowerShell, please 'Import-Module $env:ChocolateyInstall\helpers\chocolateyProfile.psm1' and try again.
+
+
