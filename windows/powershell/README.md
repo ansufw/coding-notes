@@ -39,6 +39,11 @@ $env:MY_VAR
 Remove-Item Env:\MY_ENV_VAR
 ```
 
+## Set env variable from file
+```powershell
+[Environment]::SetEnvironmentVariable("TEST1", $(Get-Content -Raw C:\Users\user\.ssh\id_rsa), "User")
+```
+
 ## Refresh powershell
 
 ```powershell
