@@ -24,3 +24,9 @@
   ```
 
 ## Minikube
+
+- create cluster `minikube start --nodes <jumlan_node> -p <nama_profile>`
+- check cluster profile list `minikube profile list`
+- add node `minikube node add -p <nama_profile>`
+- list node `kubectl get nodes`
+- delete node `minikube node delete -p <nama_profile> <nama_node>
