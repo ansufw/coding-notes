@@ -170,6 +170,12 @@ install google chrome
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
 
+### How to get list of desktop application (case EndeavourOS i3wm)
+
+```
+ls /usr/share/applications/ | grep desktop
+```
+
 ### Install XDM
 
 download xdm from here [github](https://github.com/subhra74/xdm/releases) then extract with command `tar xvf <tar file name>`. Run with `sudo ./install.sh`. After installation done then start XDM from start menu.
